@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taras Dymnov - Product Designer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Custom image placeholders since we don't have the original assets */
+        .bg-pattern {
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 antialiased">
+
+    <nav class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+        <div class="text-3xl font-bold text-blue-600">TD</div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
+            <a href="#" class="text-blue-600">Home</a>
+            <a href="#" class="hover:text-blue-600 flex items-center">Case study <i class="fas fa-chevron-down ml-1 text-xs"></i></a>
+            <a href="#" class="hover:text-blue-600">About Me</a>
+        </div>
+    </nav>
+
+    <header class="max-w-7xl mx-auto px-6 mt-10 md:mt-20 mb-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-2">Hey, I’m Taras Dymnov</h1>
+                <p class="text-xl text-gray-500 mb-6">Senior Product Designer</p>
+                <p class="text-gray-600 leading-relaxed max-w-md">
+                    I drive product innovation through visionary leadership, guiding a collaborative design process from concept to execution.
+                </p>
+            </div>
+            <div class="relative">
+                <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Portrait" class="object-cover w-full h-full grayscale opacity-90">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto px-6 mb-24">
+        <h3 class="text-xl font-bold mb-6">Highlights</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <div class="text-lg font-bold">25.000.000+</div>
+                <div class="text-gray-500 text-sm">Users</div>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <div class="text-lg font-bold">450.000+</div>
+                <div class="text-gray-500 text-sm">Positive reviews</div>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <div class="text-lg font-bold">20+</div>
+                <div class="text-gray-500 text-sm">User researches</div>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <div class="text-lg font-bold">60+</div>
+                <div class="text-gray-500 text-sm">Launched products</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 mb-24">
+        <h3 class="text-xl font-bold mb-8">Featured projects</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <div class="relative group cursor-pointer overflow-hidden rounded-lg h-80 bg-blue-100">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="absolute inset-0 w-full h-full object-cover transition duration-300 group-hover:scale-105 opacity-80" alt="Alteos">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div class="absolute bottom-6 left-6 text-white">
+                    <div class="flex items-center mb-2">
+                        <span class="font-bold text-2xl tracking-wide uppercase">ALTEOS</span>
+                    </div>
+                    <p class="text-lg opacity-90">Partner Portal</p>
+                </div>
+            </div>
+
+            <div class="relative group cursor-pointer overflow-hidden rounded-lg h-80 bg-gray-200">
+                <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a782?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="absolute inset-0 w-full h-full object-cover transition duration-300 group-hover:scale-105" alt="3M">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <div class="absolute bottom-6 left-6 text-white">
+                    <div class="text-red-600 font-extrabold text-3xl mb-1">3M</div>
+                    <p class="text-lg opacity-90">Installation service</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="bg-teal-100 py-10 mb-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-wrap justify-between items-center text-sm md:text-base font-medium text-gray-700 text-center gap-4">
+                <span>Leadership</span>
+                <span class="text-xl">+</span>
+                <span>Design Process Management</span>
+                <span class="text-xl">+</span>
+                <span>Design Vision And Strategy</span>
+                <span class="text-xl">+</span>
+                <span>Mentoring</span>
+                <span class="text-xl">+</span>
+                <span>Usability Testing</span>
+                <span class="text-xl">+</span>
+                <span>Agile</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="max-w-7xl mx-auto px-6 mb-20">
+        <h3 class="text-xl font-bold mb-8">Work Experience</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <a href="#" class="text-blue-600 font-bold hover:underline">Alteos</a>
+                <div class="text-gray-800 font-medium mt-1">Design Lead</div>
+                <div class="text-gray-400 text-sm mt-1">2022- Till Now</div>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <a href="#" class="text-blue-600 font-bold hover:underline">Globallogic</a>
+                <div class="text-gray-800 font-medium mt-1">Senior Product Designer</div>
+                <div class="text-gray-400 text-sm mt-1">2019- 2022</div>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <a href="#" class="text-blue-600 font-bold hover:underline">Enkonix</a>
+                <div class="text-gray-800 font-medium mt-1">UX/UI Designer</div>
+                <div class="text-gray-400 text-sm mt-1">2017- 2018</div>
+            </div>
+            <div class="bg-blue-50 p-6 rounded-sm">
+                <a href="#" class="text-blue-600 font-bold hover:underline">Geozilla</a>
+                <div class="text-gray-800 font-medium mt-1">Product Designer</div>
+                <div class="text-gray-400 text-sm mt-1">2016- 2017</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 mb-24">
+        <h3 class="text-xl font-bold mb-8">Achievements</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <div class="flex items-center mb-3">
+                    <span class="bg-blue-100 text-blue-600 p-1 rounded mr-2 text-xs font-bold">PRO</span>
+                    <a href="#" class="text-blue-600 font-bold hover:underline">Projector</a>
+                    <span class="mx-2 text-gray-400">/</span>
+                    <span class="font-medium">Design Mentor</span>
+                </div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    As a mentor in product design at the largest Ukrainian institute dedicated to crafting personalized, student-centered digital education. I played a pivotal role in shaping the next generation of designers and innovators.
+                </p>
+            </div>
+            <div>
+                <div class="flex items-center mb-3">
+                    <span class="bg-blue-600 text-white px-1 rounded mr-2 text-xs font-bold">Bē</span>
+                    <a href="#" class="text-blue-600 font-bold hover:underline">Behance</a>
+                    <span class="mx-2 text-gray-400">/</span>
+                    <span class="font-medium">Design Award</span>
+                </div>
+                <p class="text-gray-600 text-sm leading-relaxed">
+                    I am proud to announce that my work in UI/UX has been recognized and celebrated with a prestigious award on Behance, a leading platform for showcasing creative talent worldwide.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 mb-24 border-t border-b border-gray-100 py-12">
+        <div class="flex flex-wrap justify-between items-center opacity-70 grayscale gap-8">
+             <div class="text-3xl font-black text-red-600">3M</div>
+             <div class="text-2xl font-bold text-red-600">Singtel</div>
+             <div class="text-xl font-bold text-gray-800">Sony Ericsson</div>
+             <div class="flex items-center text-xl font-bold text-gray-800"><i class="fas fa-tools mr-2 text-red-600"></i> BOSCH</div>
+             <div class="bg-blue-900 text-white p-1 font-bold text-sm">AXA</div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 mb-20">
+        <h3 class="text-xl font-bold mb-8">Interested in working together?</h3>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="bg-gray-50 p-6 rounded-sm">
+                <div class="text-gray-400 text-xs uppercase mb-1">Email</div>
+                <a href="mailto:dymnovtaras@gmail.com" class="text-gray-800 hover:text-blue-600">dymnovtaras@gmail.com</a>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-sm">
+                <div class="text-gray-400 text-xs uppercase mb-1">Mobile</div>
+                <div class="text-gray-800">+49 176 71961348</div>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-sm">
+                <div class="text-gray-400 text-xs uppercase mb-1">Location</div>
+                <div class="text-gray-800">Berlin, Remote</div>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-sm">
+                <div class="text-gray-400 text-xs uppercase mb-1">Social Network</div>
+                <a href="#" class="text-blue-600 hover:underline">Linkedin</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-50 py-16">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <h2 class="text-2xl font-bold tracking-widest mb-4 uppercase">Taras Dymnov</h2>
+                <p class="text-gray-600 text-sm leading-relaxed max-w-sm">
+                    I drive product innovation through visionary leadership, guiding a collaborative design process from concept to execution.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Pages</h4>
+                <ul class="space-y-2 text-sm text-gray-600">
+                    <li><a href="#" class="hover:underline underline text-black">Home</a></li>
+                    <li><a href="#" class="hover:underline">Case Study: Alteos</a></li>
+                    <li><a href="#" class="hover:underline">Case Study: 3M</a></li>
+                    <li><a href="#" class="hover:underline">About Me</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Reach Me</h4>
+                <ul class="space-y-2 text-sm text-gray-600">
+                    <li>dymnovtaras@gmail.com</li>
+                    <li>+49 157 36168658</li>
+                    <li>Berlin, Remote</li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
